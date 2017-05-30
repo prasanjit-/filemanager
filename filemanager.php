@@ -1,18 +1,17 @@
 <?php
 /**
  * PHP File Manager (2017-05-03)
- * https://github.com/alexantr/filemanager
  */
 
 // Default language ('en', 'ru', 'fr' and other from 'filemanager-l10n.php')
-$lang = 'ru';
+$lang = 'en';
 
 // Auth with login/password (set true/false to enable/disable it)
 $use_auth = true;
 
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 $auth_users = array(
-    'fm_admin' => 'fm_admin',
+    'adminuser' => 'adminpass',
     //'user' => '12345',
 );
 
@@ -31,7 +30,7 @@ $use_highlightjs = true;
 $highlightjs_style = 'vs';
 
 // Default timezone for date() and time() - http://php.net/manual/en/timezones.php
-$default_timezone = 'Europe/Minsk'; // UTC+3
+$default_timezone = 'Asia/Kolkata'; // UTC+3
 
 // Root path for file manager
 $root_path = $_SERVER['DOCUMENT_ROOT'];
@@ -1842,7 +1841,7 @@ code.maxheight,pre.maxheight{max-height:512px}input[type="checkbox"]{margin:0;pa
 function fm_show_footer()
 {
     ?>
-<p class="center"><small><a href="https://github.com/alexantr/filemanager" target="_blank">PHP File Manager</a></small></p>
+<p class="center"><small><a href="https://github.com/prasanjit-/filemanager" target="_blank">Storage Archive</a></small></p>
 </div>
 <script>
 function newfolder(p){var n=prompt('<?php echo fm_t('New folder name') ?>','folder');if(n!==null&&n!==''){window.location.search='p='+encodeURIComponent(p)+'&new='+encodeURIComponent(n);}}
