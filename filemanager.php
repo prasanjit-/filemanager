@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP File Manager (2017-05-03)
+ * PHP File (2017-05-03)
  */
 
 // Default language ('en', 'ru', 'fr' and other from 'filemanager-l10n.php')
@@ -1771,7 +1771,7 @@ function fm_show_header()
 <html>
 <head>
 <meta charset="utf-8">
-<title>File Manager</title>
+<title>Storage Archive</title>
 <style>
 html,body,div,span,p,pre,a,code,em,img,small,strong,ol,ul,li,form,label,table,tr,th,td{margin:0;padding:0;vertical-align:baseline;outline:none;font-size:100%;background:transparent;border:none;text-decoration:none}
 html{overflow-y:scroll}body{padding:0;font:13px/16px Tahoma,Arial,sans-serif;color:#222;background:#efefef}
